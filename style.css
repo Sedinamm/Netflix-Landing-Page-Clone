@@ -177,3 +177,10 @@ nav button{
     cursor: pointer;
     position: relative;
 }
+
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+}
