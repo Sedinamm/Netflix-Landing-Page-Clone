@@ -207,3 +207,12 @@ input[type="radio"]{
 .accordion input[type="radio"]:checked + label::after{
     transform: rotate(135deg);
 }
+
+.faq .email-signup{
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+
+.faq email{
+    font-size: 13px;
+}
