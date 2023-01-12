@@ -183,6 +183,7 @@ label::after{
     font-size: 34px;
     position: absolute;
     right: 20px;
+    transition: transform 0.5s;
 }
 
 input[type="radio"]{
@@ -201,4 +202,8 @@ input[type="radio"]{
 .accordion input[type="radio"]:checked + label + .content{
     max-height: 600px;
     padding: 30px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
 }
