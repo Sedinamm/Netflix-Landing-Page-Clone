@@ -249,3 +249,9 @@ input[type="radio"]{
     align-items: flex-start;
     padding: 10px 0;
 }
+
+.footer .language-btn{
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
