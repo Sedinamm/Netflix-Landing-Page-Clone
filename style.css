@@ -236,3 +236,16 @@ input[type="radio"]{
     flex-grow: 1;
     margin-bottom: 20px;
 }
+
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
