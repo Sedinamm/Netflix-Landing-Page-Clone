@@ -320,4 +320,13 @@ input[type="radio"]{
         font-size: 14px;
     }
 
+    .accordion li label{
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    label::after{
+        font-size: 22px;
+    }
+
 }
