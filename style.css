@@ -311,5 +311,13 @@ input[type="radio"]{
     .features .row{
         padding: 10px 0;
     }
-    
+
+    .faq h2{
+        font-size: 20px;
+    }
+
+    .accordion .content{
+        font-size: 14px;
+    }
+
 }
